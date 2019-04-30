@@ -1330,10 +1330,10 @@ public:
     }
 };
 
-class ClusteringMeshWIP : public ClusteringSOM<SOM<ALT_SSSOMNode>> {
+class ClusteringMeshALT_SSSOM : public ClusteringSOM<SOM<ALT_SSSOMNode>> {
 public:
 
-    ClusteringMeshWIP(SOM<ALT_SSSOMNode> *som) : ClusteringSOM<SOM<ALT_SSSOMNode> >(som) {
+    ClusteringMeshALT_SSSOM(SOM<ALT_SSSOMNode> *som) : ClusteringSOM<SOM<ALT_SSSOMNode> >(som) {
     };
 
     int getMeshSize() {

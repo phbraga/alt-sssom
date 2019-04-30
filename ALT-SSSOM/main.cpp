@@ -130,7 +130,7 @@ void evaluate (string filePath, string somPath, bool filterNoise, bool sorted, b
     som.noCls = 999;
     som.readSOM(somPath);
     
-    ClusteringMeshWIP clusteringSOM(sssom);
+    ClusteringMeshALT_SSSOM clusteringSOM(sssom);
     clusteringSOM.readFile(filePath, normalize);
     clusteringSOM.sorted = sorted;
     
@@ -152,7 +152,7 @@ void runTrainTestExperiments (std::vector<float> params, string filePath, string
         ALT_SSSOM som(1);
         SOM<ALT_SSSOMNode> *sssom = (SOM<ALT_SSSOMNode>*) &som;
 
-        ClusteringMeshWIP clusteringSOM(sssom);
+        ClusteringMeshALT_SSSOM clusteringSOM(sssom);
         clusteringSOM.readFile(filePath, normalize);
         clusteringSOM.sorted = sorted;
 
