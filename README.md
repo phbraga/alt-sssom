@@ -1,3 +1,26 @@
+# ALT-SSSOM
+
+A Semi-Supervised Self-Organizing Map with Adaptive Local Thresholds
+
+Sample code to the model proposed in https://ieeexplore.ieee.org/abstract/document/8851839/
+
+It was presented at the 2019 International Joint Conference on Neural Networks (IJCNN), in Budapest, Hungary.
+
+### Cite:
+
+Please cite our paper if you use this code in your own work:
+
+```bibtex
+@inproceedings{braga2019semi,
+  title={A Semi-Supervised Self-Organizing Map with Adaptive Local Thresholds},
+  author={Braga, Pedro HM and Bassani, Hansenclever F},
+  booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2019},
+  organization={IEEE}
+}
+```
+
 ### Requirements:
 
 1. You must have a file containing all the paths to the datasets you want to use. You can follow [this](https://github.com/hfbassani/pbml/blob/master/phmb4/Parameters/inputPathsTrain) example.
